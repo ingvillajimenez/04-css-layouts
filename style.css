@@ -32,7 +32,7 @@ body {
 
 nav {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 article {
@@ -228,7 +228,7 @@ h2 {
   position: relative;
 }
 
-h2::after {
+h2::before {
   content: "TOP";
   background-color: #ffe70e;
   color: #444;
